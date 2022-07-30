@@ -1,5 +1,5 @@
 一、小组成员：李子元<br>
-二、完成的项目：SM3算法的python实现，<br>
+二、完成的项目：SM3算法的python实现，sm3算法缩短长度的碰撞，sm4算法的实现。<br>
 三、运行环境：Windows11操作系统，python3.9.0<br>
 四、项目：<br>
 1、SM3算法的python实现：<br>
@@ -8,3 +8,14 @@ B，运行指导：直接运行即可，最后的输出为测试的2个字符串
 C，运行结果截图：
 ![image](https://user-images.githubusercontent.com/95699827/181937567-58ee63e2-1662-43c6-9876-19418f1c93f0.png)
 <br>
+2、sm3算法的碰撞<br>
+A，代码说明：选一字符串并计算其sm3值，并截取其前32位，然后选择足够多的字符串并找到碰撞。<br>
+B，运行指导：直接运行，输出为一对碰撞。<br>
+C，运行结果截图：![image](https://user-images.githubusercontent.com/95699827/181995177-86319bd4-a9a0-4a07-bf0a-9592057070f9.png)
+
+<br>
+3、sm4算法的实现：<br>
+A，代码说明：定义s盒，移位函数，置换函数，密钥拓展函数，并最终定义加密算法和解密算法。示例选择一字符串并对其进行2次加密得到密文，并对密文进行2次解密得到原明文。<br>
+B，运行指导：直接运行即可。<br>
+C，运行结果截图：
+![image](https://user-images.githubusercontent.com/95699827/181994505-cacd8b6f-a3ec-40c8-a9f7-70f35fca7d99.png)
